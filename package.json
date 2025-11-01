@@ -1,0 +1,28 @@
+{
+  "name": "fc-resources-grid-day",
+  "version": "0.1.0",
+  "description": "Resources day grid view for FullCalendar",
+  "keywords": [
+    "fullcalendar",
+    "resources",
+    "calendar",
+    "resources-view",
+    "day-view",
+    "resources-day-view"
+  ],
+  "license": "MIT",
+  "author": "Timur Sultanov",
+  "type": "module",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimurSultanov/fc-resources-grid-day.git"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "~6.1.13",
+    "@fullcalendar/timegrid": "~6.1.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

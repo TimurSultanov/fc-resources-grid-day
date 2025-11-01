@@ -1,0 +1,42 @@
+# Exclude dependencies
+node_modules/
+
+# Exclude build and coverage artifacts
+build/
+dist/
+coverage/
+.tmp/
+tmp/
+.cache/
+.parcel-cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Examples, tests, and local scripts (none exist now, but future-proof)
+examples/
+demo/
+scripts/
+__tests__/
+test/
+tests/
+
+# Repository/CI/Editor configs
+.github/
+.husky/
+.idea/
+.vscode/
+.editorconfig
+.eslintcache
+.prettier*
+.turbo/
+
+# OS / env files
+.DS_Store
+.env
+.env.*
