@@ -1,6 +1,6 @@
 {
   "name": "fc-resources-grid-day",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Resources day grid view for FullCalendar",
   "keywords": [
     "fullcalendar",
@@ -12,7 +12,6 @@
   ],
   "license": "MIT",
   "author": "Timur Sultanov",
-  "type": "module",
   "main": "src/index.js",
   "repository": {
     "type": "git",
