@@ -21,9 +21,9 @@ const resources = [
 ];
 
 const events = [
-    { id: 'e1', title: 'Standup', start: new Date(), extendedProps: { id: 'r1' } },
-    { id: 'e2', title: 'Planning', start: new Date(new Date().setHours(new Date().getHours() + 1)), extendedProps: { id: 'r2' } },
-    { id: 'e3', title: '1:1', start: new Date(new Date().setHours(new Date().getHours() + 2)), extendedProps: { id: 'r3' } },
+    { id: 'e1', title: 'Standup', start: new Date(), extendedProps: { resourceId: 'r1' } },
+    { id: 'e2', title: 'Planning', start: new Date(new Date().setHours(new Date().getHours() + 1)), extendedProps: { resourceId: 'r2' } },
+    { id: 'e3', title: '1:1', start: new Date(new Date().setHours(new Date().getHours() + 2)), extendedProps: { resourceId: 'r3' } },
 ];
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 resourceList: resources,
                 
                 // Name of the property in event object that contains resource id. String.
-                resourceIdProp: 'id',
+                resourceIdProp: 'resourceId',
 
                 // Base timegrid/daytime options used by this view
                 slotDuration: '00:30:00',
